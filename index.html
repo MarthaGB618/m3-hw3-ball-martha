@@ -3,24 +3,67 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="">
-    <title></title>
+    <title>Bob's Burgers</title>
     <meta name="description" content="">
+
+    <!-- Bootstrap CSS <!-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+     <link rel="stylesheet/less" type="text/css" href="less/styles.less" />
   </head>
+
+
   <body>
-    <ul>
-      <li>Home</li>
-      <li>Menu</li>
-      <li>About Us</li>
-      <li>Order Now</li>
-    </ul>
-    <h1>Bob's Burgers</h1>
-    <button>Order Now</button>
-    <h2>World's Best Burgers</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-    <button>View Menu</button>
-    <h2>Dine-in or Take-out</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-    <button>Contact Us</button>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><span><a href="#">Order Now</a></span></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+         <img class="hero-img" src="img/banner-bg.png" alt="Background to hero image.">
+         <section class='hero-items'>
+           <p>
+             <img class="reg-photo" src="img/logo.png" alt="Logo for Bobs Burgers" title="Logo for Bobs Burgers">
+           </p>
+           <p>
+             <a href="#"><button type="button" class="btn btn-primary">Order Now</button></a>
+          </p>
+
+         </section>
+      </section>
+
+      <section class="view-menu">
+        <img class="float-right" src="img/bobs-burger.png" alt="Cartoon rendering of a hamburger." title="Hamburger">
+        <h1>World's Best <span>Burgers</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+        <a href="#"><button type="button" class="btn btn-primary">View Menu</button></a>
+      </section>
+
+      <section class="contact-us">
+        <img class="float-left" src="img/bob-headshot.png" alt="Cartoon headshot of Bob." title="Bob">
+        <h1>Dine-in or <span>Take-out</span></h1>
+        <p class="contact-us-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+        <a href="#"><button type="button" class="btn btn-primary">Contact Us</button></a>
+      </section>
+
+      <footer>
+        <img class="footer-logo" src="img/logo.png" alt="Logo for Bobs Burgers" title="Logo for Bobs Burgers">
+      </footer>
+    </main>
+
+    <!-- Bootstrap JavaScript <!-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Less <!-->
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script>
   </body>
 </html>
